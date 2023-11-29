@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-qMpRb0SjAy9pbvHhQIaBHZ9p+7MTHSDXpxmLCzPtQOp6o6aKth3gF5XwYYtrK+Yb" crossorigin="anonymous">
+
+    <title>Sunrise Sunset API Dashboard</title>
+</head>
+
+<body>
+    <h1>Sunrise Sunset API Dashboard  </h1>
+    <div class="a">        
+        
+        <div class="button">
+        <label for="locationInput">Enter Location: </label>
+        <input type="text" id="locationInput" placeholder="e.g., New York City">
+        <button id="searchButton" onclick="showtime()">Search</button>
+        </div>  
+        <h2 id="enteredPlace"></h2>
+        <h2 id="actplace"></h2>
+        <div class="time"> 
+            <div id="today">
+                <h2>Today</h2>
+                <p>🌤️ Sunrise: <strong><span id="sunrise"></span></strong></p>
+                <p>🌄 Sunset: <strong><span id="sunset"></span></strong></p>
+                <p>🌇 Dawn: <strong><span id="dawn"></span></strong></p>
+                <p>🌉 Dusk: <strong><span id="dusk"></span></strong></p>
+                <p>⏳ Day Length: <strong><span id="day_length"></span></strong></p>
+                <p>🌞 Solar Noon: <strong><span id="solar_noon"></span></strong></p>
+                <p>🌎 Timezone: <strong><span id="timezone"></span></strong></p>
+            </div>
+            <div id="tomorrow">
+                <h2>Tomorrow</h2>
+                <p>🌤️ Sunrise: <strong><span id="sunrise1"></span></strong></p>
+                <p>🌄 Sunset: <strong><span id="sunset1"></span></strong></p>
+                <p>🌇 Dawn: <strong><span id="dawn1"></span></strong></p>
+                <p>🌉 Dusk: <strong><span id="dusk1"></span></strong></p>
+                <p>⏳ Day Length: <strong><span id="day_length1"></span></strong></p>
+                <p>🌞 Solar Noon: <strong><span id="solar_noon1"></span></strong></p>
+                <p>🌎 Timezone: <strong><span id="timezone1"></span></strong></p>
+            </div>
+        </div> 
+    </div>   
+</body>
+
+</html>
